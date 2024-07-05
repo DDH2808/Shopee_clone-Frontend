@@ -169,38 +169,69 @@
                     </div>
 
                     <div class="header__search">
-                        <div class="header__search-input-wrap">
-                            <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm sản phẩm">
-                            <!-- Search history -->
-                            <div class="header__search-history">
-                                <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
-                                <ul class="header__search-history-list">
-                                    <li class="header__search-history-item">
-                                        <a href="">Áo phông</a>
+                        <div class="header__search--search-bar">
+                            <div class="header__search-input-wrap">
+                                <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm sản phẩm">
+                                <!-- Search history -->
+                                <div class="header__search-history">
+                                    <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                    <ul class="header__search-history-list">
+                                        <li class="header__search-history-item">
+                                            <a href="">Áo phông</a>
+                                        </li>
+                                        <li class="header__search-history-item">
+                                            <a href="">Quần đùi</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="header__search-select">
+                                <span class="header__search-select-label">Trong shop</span>
+                                <i class="header__search-select-icon fa-solid fa-angle-down"></i>
+                                <ul class="header__search-option">
+                                    <li class="header__search-option-item header__search-option-item--active">
+                                        <span>Trong shop</span>
+                                        <i class="fa-solid fa-check"></i>
                                     </li>
-                                    <li class="header__search-history-item">
-                                        <a href="">Quần đùi</a>
+                                    <li class="header__search-option-item header__search-option-item--active">
+                                        <span>Ngoài shop</span>
+                                        <i class="fa-solid fa-check"></i>
                                     </li>
                                 </ul>
                             </div>
+                            <button class="header__search-btn">
+                                <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                            </button>
                         </div>
-                        <div class="header__search-select">
-                            <span class="header__search-select-label">Trong shop</span>
-                            <i class="header__search-select-icon fa-solid fa-angle-down"></i>
-                            <ul class="header__search-option">
-                                <li class="header__search-option-item header__search-option-item--active">
-                                    <span>Trong shop</span>
-                                    <i class="fa-solid fa-check"></i>
+
+                        <div class="hide-on-mobile-tablet header__search--suggest">
+                            <ul class="header__search--suggest-list">
+                                <li class="header_search--suggest-item">
+                                    <a href="">Dép</a>
                                 </li>
-                                <li class="header__search-option-item header__search-option-item--active">
-                                    <span>Ngoài shop</span>
-                                    <i class="fa-solid fa-check"></i>
+                                <li class="header_search--suggest-item">
+                                    <a href="">Áo Phông</a>
+                                </li>
+                                <li class="header_search--suggest-item">
+                                    <a href="">Váy</a>
+                                </li>
+                                <li class="header_search--suggest-item">
+                                    <a href="">Túi Xách Nữ</a>
+                                </li>
+                                <li class="header_search--suggest-item">
+                                    <a href="">Áo Croptop</a>
+                                </li>
+                                <li class="header_search--suggest-item">
+                                    <a href="">Áo Khoác</a>
+                                </li>
+                                <li class="header_search--suggest-item">
+                                    <a href="">Áo Thun</a>
+                                </li>
+                                <li class="header_search--suggest-item">
+                                    <a href="">Ốp Iphone</a>
                                 </li>
                             </ul>
                         </div>
-                        <button class="header__search-btn">
-                            <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
-                        </button>
                     </div>
 
                     <!-- Cart -->
